@@ -105,6 +105,7 @@
               >
                 Required Field
               </p>
+              <p style="text-align: left;">Note: Update Password will be available soon</p>
               <input
                 type="password"
                 placeholder="Password"
@@ -128,7 +129,7 @@
                       : 'none',
                 }"
               />
-              <p
+              <!-- <p
                 class="mb-0 pb-0 requiredFieldError"
                 v-if="
                   !this.isValid &&
@@ -146,7 +147,7 @@
                     ? passwordRequirements
                     : "Required Field"
                 }}
-              </p>
+              </p> -->
               <!-- <p class="mt-2"><b>Confirm Password</b></p> -->
               <input
                 type="password"
@@ -171,7 +172,7 @@
                       : 'none',
                 }"
               />
-              <p
+              <!-- <p
                 class="mb-0 pb-0 requiredFieldError"
                 v-if="
                   !this.isValid &&
@@ -189,7 +190,7 @@
                     ? passwordRequirements
                     : "Required Field"
                 }}
-              </p>
+              </p> -->
             </div>
             <div class="d-flex justify-content-between">
               <roundedBtn
